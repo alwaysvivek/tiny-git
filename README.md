@@ -20,7 +20,7 @@ graph TD
 
     subgraph Storage ["Git Repository"]
         GitDir[.git Directory]
-        Objects[Objects (zlib)]
+        Objects["Objects (zlib)"]
         Refs[References]
     end
 
