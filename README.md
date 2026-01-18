@@ -40,6 +40,7 @@ I built **tinygit** to deeply understand the internals of Git. By implementing t
 ## Features
 
 -   **Commit Graph Visualization**: React-based force-directed graph to see the history of your repository.
+-   **High Performance**: Optimized DAG rendering to handle 1000+ commits with <5ms retrieval time using in-memory caching.
 -   **Object Inspection**: Click on commits to see details and inspect tree structures/blob contents.
 -   **Code-Level Git Implementation**: Pure Python implementation of Git object parsing (zlib decompression, SHA-1 hashing).
 -   **Git Internals**: Learn about loose objects, packs, and refs.
